@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/wire.h
+iostream
+-
+
+/home/karl/obiektowe/1zajl/lab1/src/main.cpp
+iostream
+-
+cmath
+-
+vector
+-
+algorithm
+-
+wire.h
+/home/karl/obiektowe/1zajl/lab1/src/wire.h
+

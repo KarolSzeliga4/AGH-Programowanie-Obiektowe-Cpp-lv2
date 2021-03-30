@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/wire.h
+iostream
+-
+
+/home/karl/obiektowe/1zajl/lab1/src/wire.cpp
+wire.h
+/home/karl/obiektowe/1zajl/lab1/src/wire.h
+
